@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #171717;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +30,10 @@ body {
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: #323232;
+  color: white;
+  text-align: center;
+  
 }
 
 
@@ -45,7 +49,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #763677;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -65,20 +69,20 @@ form {
 
 input {
   padding: 5px;
+  text-align: center;
 }
 
 .bookshelfDiv {
-  padding: 10px;
-  width: 80%;
+  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .formDiv {
-  width: 60%;
-  border: 1px solid white;
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -88,23 +92,27 @@ input {
 
 .bookCardsDiv {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  width: 90%;
+  justify-content: center;
+  width: 100%;
   margin-top: 20px;
 }
 
 .bookCard {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   border: 1px solid white;
   padding: 5px;
-  width: 40%;
+  width: 125px;
   margin: 15px 10px;
   background-color: rgb(155, 155, 155);
   color: black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 
